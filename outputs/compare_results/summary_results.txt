@@ -1,0 +1,16 @@
+Comparison summary
+==================
+Model old: D:\do-an-tot-nghiep\models\best_model_combined
+Model new: D:\do-an-tot-nghiep\models\final_vit5_model_phase2
+
+rouge1_old: 0.5047821810112572
+rouge2_old: 0.22844541989274042
+rougeL_old: 0.30605026501876326
+rouge1_new: 0.45170157044394665
+rouge2_new: 0.2217723481048007
+rougeL_new: 0.27604688137455924
+bertscore_old_f1: 0.7132509544491767
+bertscore_new_f1: 0.6922247886657715
+
+Bootstrap rougeL: mean_diff(new-old) = -0.030188, p-value = 0.0000, 95% CI = (-0.039054, -0.021267)
+Bootstrap bert_f1: mean_diff(new-old) = -0.021026, p-value = 0.0000, 95% CI = (-0.025846, -0.016378)

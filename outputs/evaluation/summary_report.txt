@@ -1,0 +1,43 @@
+
+==============================================
+     EVALUATION SUMMARY REPORT
+==============================================
+
+Dataset Size: 200 samples
+
+--- ROUGE Scores ---
+Extractive Model:
+  ROUGE-1: 50.47
+  ROUGE-2: 22.83
+  ROUGE-L: 30.64
+
+Abstractive Model:
+  ROUGE-1: 45.13
+  ROUGE-2: 22.18
+  ROUGE-L: 27.60
+
+--- Length Statistics ---
+Extractive Model:
+  Avg prediction length: 63.5 words
+  Compression ratio: 0.197
+
+Abstractive Model:
+  Avg prediction length: 96.3 words
+  Compression ratio: 0.292
+
+--- Repetition Analysis ---
+Extractive Model:
+  Bigram repetition: 0.010
+  Trigram repetition: 0.000
+
+Abstractive Model:
+  Bigram repetition: 0.024
+  Trigram repetition: 0.000
+
+--- Inference Time ---
+Extractive: 20.456 ± 17.258 sec/sample
+Abstractive: 10.967 ± 9.781 sec/sample
+
+==============================================
+All outputs saved to: d:\do-an-tot-nghiep\outputs\evaluation
+==============================================
