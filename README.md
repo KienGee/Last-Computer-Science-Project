@@ -274,8 +274,8 @@ MIT License - xem file [LICENSE](LICENSE) để biết chi tiết
 
 ## 📧 Contact
 
-- Email: [your-email@example.com]
-- GitHub: [@your-username](https://github.com/your-username)
+- Email: [darkpunch09@gmail.com]
+- GitHub: [@KienGee](https://github.com/KienGee)
 
 ---
 
