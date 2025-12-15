@@ -79,18 +79,23 @@ pip install -r requirements.txt
 
 **⚠️ Download models:**
 
-Do models quá lớn (>2GB), bạn cần download thủ công:
+Model đã được upload lên HuggingFace Hub. Có 2 cách sử dụng:
 
-1. **Model Abstractive** (khuyến nghị sử dụng):
-   - Download từ [Google Drive](https://drive.google.com/drive/folders/your-model-folder)
-   - Giải nén vào `models/final_vit5_model_phase2/`
+**Option 1: Auto-download từ HuggingFace** (Khuyến nghị)
+```python
+# Trong Web_demo/backend/app/services/summarizer.py
+# Thay MODEL_PATH thành:
+MODEL_PATH = "NishiKyen/vit5-vietnamese-news"  # Auto download từ HF
+```
 
-2. Hoặc dùng model từ HuggingFace:
-   ```python
-   # Backend sẽ tự động download nếu không tìm thấy local model
-   # Sửa trong app/services/summarizer.py:
-   model_path = "VietAI/vit5-base"  # Thay vì local path
-   ```
+**Option 2: Download thủ công**
+```bash
+# Sử dụng huggingface-cli
+pip install -U huggingface-hub
+huggingface-cli download NishiKyen/vit5-vietnamese-news --local-dir models/final_vit5_model_phase2
+```
+
+🔗 **Model on HuggingFace**: [NishiKyen/vit5-vietnamese-news](https://huggingface.co/NishiKyen/vit5-vietnamese-news)
 
 **Chạy backend:**
 
