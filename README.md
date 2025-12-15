@@ -254,9 +254,9 @@ Nếu bạn sử dụng code này, vui lòng trích dẫn:
 
 ```bibtex
 @thesis{vietnamese-news-summarization,
-  author = {[Tên của bạn]},
+  author = {[Nguyễn Trung Kiên]},
   title = {Hệ thống Tóm tắt Tin tức Tiếng Việt sử dụng mô hình ViT5},
-  school = {[Tên trường]},
+  school = {[HUCE]},
   year = {2025},
   type = {Đồ án tốt nghiệp}
 }
