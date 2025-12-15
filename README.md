@@ -240,13 +240,7 @@ GET /api/v1/news/history?date=2025-12-15
 
 ## 🎯 Hướng phát triển
 
-- [ ] **Multi-label classification**: PhoBERT để gán nhiều categories
-- [ ] **Batch inference**: Xử lý nhiều bài cùng lúc để tăng tốc
-- [ ] **Model quantization**: INT8/FP16 để giảm model size
-- [ ] **PostgreSQL + Redis**: Scale database cho production
-- [ ] **User authentication**: JWT token cho personalization
-- [ ] **More sources**: Thêm VietnamNet, Tuổi Trẻ, Dân Trí
-- [ ] **Mobile app**: React Native hoặc Flutter
+đây đã là điểm cuối hành trình
 
 ## 📝 Trích dẫn
 
